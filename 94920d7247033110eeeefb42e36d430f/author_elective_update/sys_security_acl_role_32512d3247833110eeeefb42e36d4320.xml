@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 07:33:33</sys_created_on>
+        <sys_id>32512d3247833110eeeefb42e36d4320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1129732_healthca_problem_table.x_1129732_healthca.problem_table_user</sys_name>
+        <sys_package display_value="Healthcare" source="x_1129732_healthca">94920d7247033110eeeefb42e36d430f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">94920d7247033110eeeefb42e36d430f</sys_scope>
+        <sys_security_acl display_value="x_1129732_healthca_problem_table">3a512d3247833110eeeefb42e36d431d</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_32512d3247833110eeeefb42e36d4320</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 07:33:33</sys_updated_on>
+        <sys_user_role display_value="x_1129732_healthca.problem_table_user" name="x_1129732_healthca.problem_table_user">2a51693247833110eeeefb42e36d439b</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Healthcare">94920d7247033110eeeefb42e36d430f</application>
+        <file_path/>
+        <instance_id>2d39965fdbbe370452dd2f17d49619a4</instance_id>
+        <instance_name>dev89348</instance_name>
+        <name>sys_security_acl_role_32512d3247833110eeeefb42e36d4320</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-15 07:33:33</sys_created_on><sys_id>32512d3247833110eeeefb42e36d4320</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1129732_healthca_problem_table.x_1129732_healthca.problem_table_user</sys_name><sys_package display_value="Healthcare" source="x_1129732_healthca">94920d7247033110eeeefb42e36d430f</sys_package><sys_policy/><sys_scope display_value="Healthcare">94920d7247033110eeeefb42e36d430f</sys_scope><sys_security_acl display_value="x_1129732_healthca_problem_table">3a512d3247833110eeeefb42e36d431d</sys_security_acl><sys_update_name>sys_security_acl_role_32512d3247833110eeeefb42e36d4320</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-15 07:33:33</sys_updated_on><sys_user_role display_value="x_1129732_healthca.problem_table_user" name="x_1129732_healthca.problem_table_user">2a51693247833110eeeefb42e36d439b</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>423806165</payload_hash>
+        <record_name>x_1129732_healthca_problem_table.x_1129732_healthca.problem_table_user</record_name>
+        <reverted_from/>
+        <source>24920d7247033110eeeefb42e36d4311</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 07:33:33</sys_created_on>
+        <sys_id>b2512d3247833110eeeefb42e36d4322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c6c65159f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 07:33:33</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>fa512d32a08331102e89917a939c9a21</update_guid>
+        <update_guid_history>fa512d32a08331102e89917a939c9a21:423806165</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1129732_healthca_problem_table.x_1129732_healthca.problem_table_user">59f36df247833110eeeefb42e36d43bc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 07:44:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0f50e8de012549518337ba8dfb3296b9</sys_id>
+        <sys_metadata>32512d3247833110eeeefb42e36d4320</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1129732_healthca_problem_table.x_1129732_healthca.problem_table_user</sys_name>
+        <sys_package display_value="Healthcare" source="x_1129732_healthca">94920d7247033110eeeefb42e36d430f</sys_package>
+        <sys_parent display_value="">3a512d3247833110eeeefb42e36d431d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">94920d7247033110eeeefb42e36d430f</sys_scope>
+        <sys_scope_delete display_value="">1dae42ecdec74704847a415e00257c04</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_32512d3247833110eeeefb42e36d4320</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_32512d3247833110eeeefb42e36d4320">b2512d3247833110eeeefb42e36d4322</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 07:44:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

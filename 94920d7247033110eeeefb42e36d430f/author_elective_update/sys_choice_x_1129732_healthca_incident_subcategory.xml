@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="subcategory" table="x_1129732_healthca_incident" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>subcategory</element>
+            <name>x_1129732_healthca_incident</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:27:36</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>subcategory</sys_name>
+            <sys_package display_value="Healthcare" source="x_1129732_healthca">94920d7247033110eeeefb42e36d430f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Healthcare">94920d7247033110eeeefb42e36d430f</sys_scope>
+            <sys_update_name>sys_choice_x_1129732_healthca_incident_subcategory</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:27:36</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alarms for Oxygen Levels</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:35:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b4e0343f478bf110eeeefb42e36d43f0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:36:17</sys_updated_on>
+            <value>alarms_for_oxygen_levels</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alarm Notifications</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:28:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a21fa4fb478bf110eeeefb42e36d4333</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:28:26</sys_updated_on>
+            <value>alarm_notifications</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Airflow or Pressure Problems</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:35:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3ac0343f478bf110eeeefb42e36d43ef</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:35:50</sys_updated_on>
+            <value>app</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Battery Issues</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:37:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9d31783f478bf110eeeefb42e36d43f1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:37:34</sys_updated_on>
+            <value>battery_issues</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Battery or Charging Issues</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:51:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6f74f43347cbf110eeeefb42e36d43b7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:52:11</sys_updated_on>
+            <value>battery_or_charging_issues</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Battery or Power Failures</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:34:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9260f83f478bf110eeeefb42e36d438f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:34:46</sys_updated_on>
+            <value>battery_or_power_failures</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Battery or Power Issues</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:30:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>377facfb478bf110eeeefb42e36d4388</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:30:41</sys_updated_on>
+            <value>battery_or_power_issues</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Battery or Power Issues</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:55:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb357cff478bf110eeeefb42e36d4302</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:55:30</sys_updated_on>
+            <value>battery_or_power_issues</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Beam Alignment Problems</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:47:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5763303347cbf110eeeefb42e36d436c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:47:28</sys_updated_on>
+            <value>beam_alignment_problems</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Brake Failures</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:52:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a94f43347cbf110eeeefb42e36d434e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:52:28</sys_updated_on>
+            <value>brake_failures</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Calibration Problems</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:37:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1121783f478bf110eeeefb42e36d43f1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:37:16</sys_updated_on>
+            <value>calibration_problems</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Connection Issues</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:27:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>060fa4fb478bf110eeeefb42e36d4332</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:28:05</sys_updated_on>
+            <value>connection_issues</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Connection Problems</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:54:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4e257cff478bf110eeeefb42e36d4301</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:54:53</sys_updated_on>
+            <value>connection_problems</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cooling System Failures</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:47:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e373303347cbf110eeeefb42e36d436d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:47:53</sys_updated_on>
+            <value>cooling_system_failures</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data Accuracy Concerns</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:28:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb2f2cfb478bf110eeeefb42e36d43ca</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:28:39</sys_updated_on>
+            <value>dac</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data Entry Errors</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:48:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50d3303347cbf110eeeefb42e36d4370</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:49:15</sys_updated_on>
+            <value>data_entry_errors</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Device Malfunction</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:27:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>81fee4fb478bf110eeeefb42e36d4394</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:27:48</sys_updated_on>
+            <value>device_malfunction</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inaccurate ECG Readings</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:34:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a590383f478bf110eeeefb42e36d435f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:35:10</sys_updated_on>
+            <value>ecg</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Electrode Connection Problems</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:33:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ab30f03f478bf110eeeefb42e36d432d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:34:09</sys_updated_on>
+            <value>electrode_connection_problems</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Failure to Deliver Shock</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:32:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2130f83f478bf110eeeefb42e36d438d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:33:13</sys_updated_on>
+            <value>failure_to_deliver_shock</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Flow Rate Irregularities</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:28:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a74f68fb478bf110eeeefb42e36d4356</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:29:18</sys_updated_on>
+            <value>flow_rate_irregularities</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hardware Malfunction</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:54:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ccc4707347cbf110eeeefb42e36d43ee</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:54:12</sys_updated_on>
+            <value>hardware_malfunction</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Image Clarity Concerns</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:45:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fab2b87f478bf110eeeefb42e36d4320</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:45:43</sys_updated_on>
+            <value>image_clarity_concerns</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Image Quality Issues</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:31:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>05cfa03f478bf110eeeefb42e36d434a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:31:32</sys_updated_on>
+            <value>image_quality_issues</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Incorrect Readings</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:36:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8821b07f478bf110eeeefb42e36d4316</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:36:59</sys_updated_on>
+            <value>incorrect_readings</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Integration Problems with Other System</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:50:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b104f43347cbf110eeeefb42e36d434b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:51:20</sys_updated_on>
+            <value>integration_problems_with_other_systems</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Login or Access Issues</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:48:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4db330bf478bf110eeeefb42e36d43bd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:48:48</sys_updated_on>
+            <value>iogin_or_access_issues</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Integration Problems with Other Systems</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 13:05:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dbf3c27f47cff110eeeefb42e36d43cb</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 13:05:47</sys_updated_on>
+            <value>ipwos</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Joystick or Control Malfunctions</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:51:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98643cff478bf110eeeefb42e36d43ad</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:51:47</sys_updated_on>
+            <value>joystick_or_control_malfunctions</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mechanical Failures</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:32:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9dffa4fb478bf110eeeefb42e36d4337</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:32:10</sys_updated_on>
+            <value>mechanical_failures</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Medication Administration Errors</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:30:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>90afacfb478bf110eeeefb42e36d4389</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:31:08</sys_updated_on>
+            <value>medication_administration_errors</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Occlusion Alarms</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:29:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>595fa0fb478bf110eeeefb42e36d43dc</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:30:04</sys_updated_on>
+            <value>occlusion_alarms</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Power Fluctuations</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:46:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e9533c3f478bf110eeeefb42e36d4349</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:46:57</sys_updated_on>
+            <value>power_fluctuations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Probe Malfunctions</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:45:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c02334ff478bf110eeeefb42e36d432d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:46:00</sys_updated_on>
+            <value>probe_malfunctions</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Radiation Exposure Concerns</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:31:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44efe03f478bf110eeeefb42e36d43bc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:31:53</sys_updated_on>
+            <value>radiation_exposure_concerns</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Safety Interlock Issues</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:48:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b933cff478bf110eeeefb42e36d43fd</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:48:20</sys_updated_on>
+            <value>safety_interlock_issues</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Scanning or Calibration Issues</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:46:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01437cff478bf110eeeefb42e36d4306</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:46:41</sys_updated_on>
+            <value>scanning_or_calibration_issues</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Software Bugs</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:46:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1d333c7f478bf110eeeefb42e36d430c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:46:15</sys_updated_on>
+            <value>software_bugs</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Software Errors</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:32:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b600743f478bf110eeeefb42e36d43cc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:32:36</sys_updated_on>
+            <value>software_errors</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Software Issues</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:54:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4115f07347cbf110eeeefb42e36d4323</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:54:33</sys_updated_on>
+            <value>software_issues</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Structural Problems</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:52:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3ba4f43347cbf110eeeefb42e36d434f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:52:45</sys_updated_on>
+            <value>structural_problems</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sudden Shutdowns</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:36:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a8f0347f478bf110eeeefb42e36d43b5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:36:33</sys_updated_on>
+            <value>sudden_shutdowns</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System Downtime</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:49:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9be37cff478bf110eeeefb42e36d430d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:49:51</sys_updated_on>
+            <value>system_downtime</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>User Interface Errors</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:37:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7941b07f478bf110eeeefb42e36d4335</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:37:51</sys_updated_on>
+            <value>UIE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ventilation Settings Issues</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:35:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e9b0783f478bf110eeeefb42e36d43e9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:35:33</sys_updated_on>
+            <value>ventilation_settings_issues</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

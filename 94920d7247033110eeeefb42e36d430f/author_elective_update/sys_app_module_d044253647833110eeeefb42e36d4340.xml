@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="HelthCare Management">1844253647833110eeeefb42e36d433d</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>problems</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1129732_healthca_problem</name>
+        <order>200</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_1129732_healthca.problem_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 07:46:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d044253647833110eeeefb42e36d4340</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>problems</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Healthcare" source="x_1129732_healthca">94920d7247033110eeeefb42e36d430f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">94920d7247033110eeeefb42e36d430f</sys_scope>
+        <sys_update_name>sys_app_module_d044253647833110eeeefb42e36d4340</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 07:46:47</sys_updated_on>
+        <timeline_page/>
+        <title>problems</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Healthcare">94920d7247033110eeeefb42e36d430f</application>
+        <file_path/>
+        <instance_id>2d39965fdbbe370452dd2f17d49619a4</instance_id>
+        <instance_name>dev89348</instance_name>
+        <name>sys_app_module_d044253647833110eeeefb42e36d4340</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="HelthCare Management">1844253647833110eeeefb42e36d433d</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>problems</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1129732_healthca_problem</name><order>200</order><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_1129732_healthca.problem_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-15 07:46:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d044253647833110eeeefb42e36d4340</sys_id><sys_mod_count>1</sys_mod_count><sys_name>problems</sys_name><sys_overrides/><sys_package display_value="Healthcare" source="x_1129732_healthca">94920d7247033110eeeefb42e36d430f</sys_package><sys_policy/><sys_scope display_value="Healthcare">94920d7247033110eeeefb42e36d430f</sys_scope><sys_update_name>sys_app_module_d044253647833110eeeefb42e36d4340</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-15 07:46:47</sys_updated_on><timeline_page/><title>problems</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1737807346</payload_hash>
+        <record_name>problems</record_name>
+        <reverted_from/>
+        <source>24920d7247033110eeeefb42e36d4311</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 07:46:47</sys_created_on>
+        <sys_id>ec64e53647833110eeeefb42e36d43d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c6c71331e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 07:46:47</sys_updated_on>
+        <type>Module</type>
+        <update_guid>2864e536ed833110efe203e87fca1ad6</update_guid>
+        <update_guid_history>2864e536ed833110efe203e87fca1ad6:1737807346,9c44253675833110913afb459bb1c141:-456816102</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="problems">3346e1b647833110eeeefb42e36d43d8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 07:55:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>4ea7830c3f4f4830b935ccc3db8fdb64</sys_id>
+        <sys_metadata>d044253647833110eeeefb42e36d4340</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>problems</sys_name>
+        <sys_package display_value="Healthcare" source="x_1129732_healthca">94920d7247033110eeeefb42e36d430f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">94920d7247033110eeeefb42e36d430f</sys_scope>
+        <sys_scope_delete display_value="">1dae42ecdec74704847a415e00257c04</sys_scope_delete>
+        <sys_update_name>sys_app_module_d044253647833110eeeefb42e36d4340</sys_update_name>
+        <sys_update_version display_value="sys_app_module_d044253647833110eeeefb42e36d4340">ec64e53647833110eeeefb42e36d43d6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 07:55:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

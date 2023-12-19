@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ddfbe9fa47833110eeeefb42e36d43d2" label="Verification " max_length="40" name="x_1129732_healthca_verification" type="collection">
+        <element label="Incident Number" max_length="32" name="incident_number" reference="x_1129732_healthca_incident" type="reference"/>
+        <element choice="1" label="Verification Status" max_length="40" name="verification_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" value="completed"/>
+                <element inactive_on_update="false" label="Hold" value="hold"/>
+                <element inactive_on_update="false" label="Pending" value="pending"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="incident_number"/>
+        </index>
+    </element>
+</database>

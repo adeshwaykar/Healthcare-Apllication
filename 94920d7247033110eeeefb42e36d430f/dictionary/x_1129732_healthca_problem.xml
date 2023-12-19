@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f1f7213a47833110eeeefb42e36d4361" extends="task" label="PROBLEM" max_length="40" name="x_1129732_healthca_problem" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Closure Code" max_length="40" name="closure_code" type="string">
+            <choice/>
+        </element>
+        <element attributes="encode_utf8=false" label="Incident Linked" max_length="32" name="incident_linked" reference="x_1129732_healthca_incident" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Preventive Measures" max_length="100" name="preventive_measures" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Root Cause Analysis" max_length="100" name="root_cause_analysis" type="string"/>
+    </element>
+</database>

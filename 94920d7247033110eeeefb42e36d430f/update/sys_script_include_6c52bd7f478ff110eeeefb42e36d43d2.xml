@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1129732_healthca.NewValue</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>NewValue</name>
+        <script><![CDATA[var NewValue = Class.create();
+NewValue.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+
+    processDataFromClient: function() {
+        var param1 = this.getParameter('param1');
+
+        // Perform server-side processing using param1 within your scoped app
+        // Your logic here
+        var gr = new GlideRecord('x_1129732_healthca_medical_devices');
+        gr.addQuery('sys_id', param1);
+        gr.query();
+        while (gr.next()) {
+            gs.addErrorMessage(gr.device_name+" "+gr.device_type);
+
+            
+            return gr.device_type;
+        }
+
+
+    },
+
+    type: 'NewValue'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-18 11:22:19</sys_created_on>
+        <sys_id>6c52bd7f478ff110eeeefb42e36d43d2</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>NewValue</sys_name>
+        <sys_package display_value="Healthcare" source="x_1129732_healthca">94920d7247033110eeeefb42e36d430f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Healthcare">94920d7247033110eeeefb42e36d430f</sys_scope>
+        <sys_update_name>sys_script_include_6c52bd7f478ff110eeeefb42e36d43d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-18 12:12:33</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="52f8e5b647833110eeeefb42e36d43e1" extends="task" label="change_request" max_length="40" name="x_1129732_healthca_change_request" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="category" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Change Type" max_length="40" name="change_type" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Implementation Plan" max_length="100" name="implementation_plan" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Risk" max_length="40" name="risk" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Test Plan" max_length="100" name="test_plan" type="string"/>
+    </element>
+</database>

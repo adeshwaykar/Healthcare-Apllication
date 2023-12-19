@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="incident_category" table="x_1129732_healthca_incident" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>incident_category</element>
+            <name>x_1129732_healthca_incident</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:23:28</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>incident_category</sys_name>
+            <sys_package display_value="Healthcare" source="x_1129732_healthca">94920d7247033110eeeefb42e36d430f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Healthcare">94920d7247033110eeeefb42e36d430f</sys_scope>
+            <sys_update_name>sys_choice_x_1129732_healthca_incident_incident_category</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:23:28</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cardiac Equipment</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:24:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2b3e2cbb478bf110eeeefb42e36d435d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:24:51</sys_updated_on>
+            <value>cardiac_equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Diagnostic Equipment</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:25:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a36ea8bb478bf110eeeefb42e36d43bc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:25:36</sys_updated_on>
+            <value>diagnostic_equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Health Information Technology (HIT)</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:26:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b3ae6cbb478bf110eeeefb42e36d433a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:26:38</sys_updated_on>
+            <value>hit</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Imaging Equipment</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:24:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a2e2cbb478bf110eeeefb42e36d435c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:24:22</sys_updated_on>
+            <value>imaging_equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Infusion Device</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:23:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>691ea43b478bf110eeeefb42e36d4374</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:23:58</sys_updated_on>
+            <value>infusion_device</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IT Equipment</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 12:01:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cd3b75b747cff110eeeefb42e36d432d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 12:01:41</sys_updated_on>
+            <value>it_equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mobility Aids</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:26:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d6cea8bb478bf110eeeefb42e36d4357</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:27:00</sys_updated_on>
+            <value>mobility_aids</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Monitoring Equipment</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:23:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>730e24f7478bf110eeeefb42e36d43bd</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 09:22:41</sys_updated_on>
+            <value>monitoring_equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Respiratory Equipment</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:24:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>175ea8bb478bf110eeeefb42e36d43bb</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:25:15</sys_updated_on>
+            <value>respiratory_equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Surgical Equipment</label>
+            <language>en</language>
+            <name>x_1129732_healthca_incident</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:26:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad8e20fb478bf110eeeefb42e36d43f8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:26:22</sys_updated_on>
+            <value>surgical_equipment</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

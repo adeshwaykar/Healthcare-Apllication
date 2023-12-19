@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="869c2d3e47833110eeeefb42e36d433e" label="Medical Devices" max_length="40" name="x_1129732_healthca_medical_devices" type="collection">
+        <element choice="1" label="Criticality Level" max_length="40" name="criticality_level" type="choice">
+            <choice/>
+        </element>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Device ID" max_length="40" name="device_id" type="string" use_dynamic_default="true"/>
+        <element label="Device Name" max_length="40" name="device_name" type="string"/>
+        <element choice="1" label="Device Status" max_length="40" name="device_status" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" display="true" label="Device Type" max_length="40" name="device_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cardiac Equipment" value="cardiac_equipment"/>
+                <element inactive_on_update="false" label="Diagnostic Equipment" value="diagnostic_equipment"/>
+                <element inactive_on_update="false" label="Health Information Technology (HIT)" value="hit"/>
+                <element inactive_on_update="false" label="Imaging Equipment" value="imaging_equipment"/>
+                <element inactive_on_update="false" label="Infusion Device" value="infusion_device"/>
+                <element inactive_on_update="false" label="IT Equipment" value="it_equipment"/>
+                <element inactive_on_update="false" label="Mobility Aids" value="mobility_aids"/>
+                <element inactive_on_update="false" label="Monitoring Equipment" value="monitoring_equipment"/>
+                <element inactive_on_update="false" label="Respiratory Equipment" value="respiratory_equipment"/>
+                <element inactive_on_update="false" label="Surgical Equipment" value="surgical_equipment"/>
+            </choice>
+        </element>
+        <element label="Installation Date" max_length="40" name="installation_date" type="glide_date"/>
+        <element label="Last Maintenance Date" max_length="40" name="last_maintenance_date" type="glide_date"/>
+        <element label="Location" max_length="40" name="location" type="string"/>
+        <element choice="1" label="Maintenance Schedule" max_length="40" name="maintenance_schedule" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Annually" value="annually"/>
+                <element inactive_on_update="false" label="Bi-weekly" value="bi-weekly"/>
+                <element inactive_on_update="false" label="Daily" value="daily"/>
+                <element inactive_on_update="false" label="Montly" value="montly"/>
+                <element inactive_on_update="false" label="Quarterly" value="quarterly"/>
+                <element inactive_on_update="false" label="Semiannually" value="semiannually"/>
+                <element inactive_on_update="false" label="Weekly" value="weekly"/>
+            </choice>
+        </element>
+        <element label="Manufacturer" max_length="40" name="manufacturer" type="string"/>
+        <element label="Model" max_length="40" name="model" type="string"/>
+        <element label="Purchase Date" max_length="40" name="purchase_date" type="glide_date"/>
+        <element label="Serial Number" max_length="40" name="serial_number" type="string"/>
+        <element label="Training Required" max_length="40" name="training_required" type="boolean"/>
+        <element label="User Instructions" max_length="40" name="user_instructions" type="string"/>
+        <element label="User Manual" max_length="1024" name="user_manual" type="url"/>
+        <element label="Warranty Expiration Date" max_length="40" name="warranty_expiration_date" type="glide_date"/>
+    </element>
+</database>

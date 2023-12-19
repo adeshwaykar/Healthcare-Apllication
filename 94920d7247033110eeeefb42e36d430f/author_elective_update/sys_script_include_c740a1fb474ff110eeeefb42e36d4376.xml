@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1129732_healthca.getCatergory</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>getCatergory</name>
+        <script><![CDATA[var getCatergory = Class.create();
+getCatergory.prototype = {
+    initialize: function() {
+    },
+ getCategory: function() {
+        var sysid = this.getParameter('sysparm_buildingid');
+        var gr = new GlideRecord('x_1129732_healthca_medical_devices');
+        gr.addQuery('sys_id', sysid);
+        gr.query();
+        while (gr.next()) {
+            var json = new JSON();
+            var result = {
+                "device name": gr.getValue("device_name"),
+                "type": gr.getValue("device_type")
+            };
+			return json.encode(results);
+        }
+
+
+
+    },
+
+    type: 'getCatergory'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-18 10:10:22</sys_created_on>
+        <sys_id>c740a1fb474ff110eeeefb42e36d4376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getCatergory</sys_name>
+        <sys_package display_value="Healthcare" source="x_1129732_healthca">94920d7247033110eeeefb42e36d430f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Healthcare">94920d7247033110eeeefb42e36d430f</sys_scope>
+        <sys_update_name>sys_script_include_c740a1fb474ff110eeeefb42e36d4376</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-18 10:10:22</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Healthcare">94920d7247033110eeeefb42e36d430f</application>
+        <file_path/>
+        <instance_id>2d39965fdbbe370452dd2f17d49619a4</instance_id>
+        <instance_name>dev89348</instance_name>
+        <name>sys_script_include_c740a1fb474ff110eeeefb42e36d4376</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1129732_healthca.getCatergory&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;getCatergory&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var getCatergory = Class.create();
+getCatergory.prototype = {
+    initialize: function() {
+    },
+ getCategory: function() {
+        var sysid = this.getParameter('sysparm_buildingid');
+        var gr = new GlideRecord('x_1129732_healthca_medical_devices');
+        gr.addQuery('sys_id', sysid);
+        gr.query();
+        while (gr.next()) {
+            var json = new JSON();
+            var result = {
+                "device name": gr.getValue("device_name"),
+                "type": gr.getValue("device_type")
+            };
+			return json.encode(results);
+        }
+
+
+
+    },
+
+    type: 'getCatergory'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-18 10:10:22&lt;/sys_created_on&gt;&lt;sys_id&gt;c740a1fb474ff110eeeefb42e36d4376&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;getCatergory&lt;/sys_name&gt;&lt;sys_package display_value="Healthcare" source="x_1129732_healthca"&gt;94920d7247033110eeeefb42e36d430f&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Healthcare"&gt;94920d7247033110eeeefb42e36d430f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_c740a1fb474ff110eeeefb42e36d4376&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-18 10:10:22&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1926582471</payload_hash>
+        <record_name>getCatergory</record_name>
+        <reverted_from/>
+        <source>24920d7247033110eeeefb42e36d4311</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-18 10:10:22</sys_created_on>
+        <sys_id>1502a1fb474ff110eeeefb42e36d437e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c7c67bca30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-18 10:10:22</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>5d02a1fb6b4ff110e4915c49ec385f7d</update_guid>
+        <update_guid_history>5d02a1fb6b4ff110e4915c49ec385f7d:-1926582471</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-18 10:11:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>e2f1b6695a4041da94ddc5f5536496c4</sys_id>
+        <sys_metadata>c740a1fb474ff110eeeefb42e36d4376</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getCatergory</sys_name>
+        <sys_package display_value="Healthcare" source="x_1129732_healthca">94920d7247033110eeeefb42e36d430f</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Healthcare">94920d7247033110eeeefb42e36d430f</sys_scope>
+        <sys_scope_delete display_value="">1dae42ecdec74704847a415e00257c04</sys_scope_delete>
+        <sys_update_name>sys_script_include_c740a1fb474ff110eeeefb42e36d4376</sys_update_name>
+        <sys_update_version display_value="sys_script_include_c740a1fb474ff110eeeefb42e36d4376">1502a1fb474ff110eeeefb42e36d437e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-18 10:11:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

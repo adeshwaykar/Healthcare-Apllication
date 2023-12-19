@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Notes" section_id="f9122d7247833110eeeefb42e36d4352" sys_domain="global" table="x_1129732_healthca_problem_table" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes_list</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-15 07:36:45</sys_created_on>
+            <sys_id>39122d7247833110eeeefb42e36d4353</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1129732_healthca_problem_table" sys_domain="global" view="b46160b2d4a3211095d7c105f1bf43c2">f9122d7247833110eeeefb42e36d4352</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-15 07:36:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-15 07:36:45</sys_created_on>
+            <sys_id>b9122d7247833110eeeefb42e36d4353</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1129732_healthca_problem_table" sys_domain="global" view="b46160b2d4a3211095d7c105f1bf43c2">f9122d7247833110eeeefb42e36d4352</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-15 07:36:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-15 07:36:45</sys_created_on>
+            <sys_id>3d122d7247833110eeeefb42e36d4353</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1129732_healthca_problem_table" sys_domain="global" view="b46160b2d4a3211095d7c105f1bf43c2">f9122d7247833110eeeefb42e36d4352</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-15 07:36:45</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Notes</caption>
+            <header>false</header>
+            <name>x_1129732_healthca_problem_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-15 07:36:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f9122d7247833110eeeefb42e36d4352</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1129732_healthca_problem_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Healthcare" source="x_1129732_healthca">94920d7247033110eeeefb42e36d430f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Healthcare">94920d7247033110eeeefb42e36d430f</sys_scope>
+            <sys_update_name>sys_ui_section_f9122d7247833110eeeefb42e36d4352</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-15 07:36:45</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">b46160b2d4a3211095d7c105f1bf43c2</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Healthcare">94920d7247033110eeeefb42e36d430f</application>
+        <file_path/>
+        <instance_id>2d39965fdbbe370452dd2f17d49619a4</instance_id>
+        <instance_name>dev89348</instance_name>
+        <name>sys_ui_section_f9122d7247833110eeeefb42e36d4352</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Notes" section_id="f9122d7247833110eeeefb42e36d4352" sys_domain="global" table="x_1129732_healthca_problem_table" version="3" view="workspace"><sys_ui_element action="INSERT_OR_UPDATE"><element>work_notes_list</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-15 07:36:45</sys_created_on><sys_id>39122d7247833110eeeefb42e36d4353</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Notes" display_value="Notes" name="x_1129732_healthca_problem_table" sys_domain="global" view="b46160b2d4a3211095d7c105f1bf43c2">f9122d7247833110eeeefb42e36d4352</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-15 07:36:45</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>work_notes</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-15 07:36:45</sys_created_on><sys_id>b9122d7247833110eeeefb42e36d4353</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Notes" display_value="Notes" name="x_1129732_healthca_problem_table" sys_domain="global" view="b46160b2d4a3211095d7c105f1bf43c2">f9122d7247833110eeeefb42e36d4352</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-15 07:36:45</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>activity.xml</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-15 07:36:45</sys_created_on><sys_id>3d122d7247833110eeeefb42e36d4353</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter><sys_ui_section caption="Notes" display_value="Notes" name="x_1129732_healthca_problem_table" sys_domain="global" view="b46160b2d4a3211095d7c105f1bf43c2">f9122d7247833110eeeefb42e36d4352</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-15 07:36:45</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Notes</caption><header>false</header><name>x_1129732_healthca_problem_table</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-15 07:36:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f9122d7247833110eeeefb42e36d4352</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1129732_healthca_problem_table</sys_name><sys_overrides/><sys_package display_value="Healthcare" source="x_1129732_healthca">94920d7247033110eeeefb42e36d430f</sys_package><sys_policy/><sys_scope display_value="Healthcare">94920d7247033110eeeefb42e36d430f</sys_scope><sys_update_name>sys_ui_section_f9122d7247833110eeeefb42e36d4352</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-15 07:36:45</sys_updated_on><sys_user/><title>false</title><view display_value="Workspace" name="workspace">b46160b2d4a3211095d7c105f1bf43c2</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-634545311</payload_hash>
+        <record_name>Problem Table</record_name>
+        <reverted_from/>
+        <source>24920d7247033110eeeefb42e36d4311</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 07:36:45</sys_created_on>
+        <sys_id>b5122d7247833110eeeefb42e36d4355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c6c6805800000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 07:36:45</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>31122d72aa833110355077e9e8fa2455</update_guid>
+        <update_guid_history>31122d72aa833110355077e9e8fa2455:-634545311</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 07:44:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>00d15d43f4584ac48000e874b664f5a1</sys_id>
+        <sys_metadata>f9122d7247833110eeeefb42e36d4352</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notes</sys_name>
+        <sys_package display_value="Healthcare" source="x_1129732_healthca">94920d7247033110eeeefb42e36d430f</sys_package>
+        <sys_parent display_value="">5431edfe47433110eeeefb42e36d4374</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">94920d7247033110eeeefb42e36d430f</sys_scope>
+        <sys_scope_delete display_value="">1dae42ecdec74704847a415e00257c04</sys_scope_delete>
+        <sys_update_name>sys_ui_section_f9122d7247833110eeeefb42e36d4352</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_f9122d7247833110eeeefb42e36d4352">b5122d7247833110eeeefb42e36d4355</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 07:44:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
